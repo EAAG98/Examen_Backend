@@ -1,0 +1,5 @@
+Detalle-facturas-facturas:
+http://localhost:3000/detalle-facturas?filter=%7B%0A%0A%20%20%22include%22%3A%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22relation%22%3A%20%22factura%22%0A%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D
+
+Detalle-facturas-productos:
+http://localhost:3000/detalle-facturas?filter=%7B%0A%0A%20%20%22include%22%3A%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22relation%22%3A%20%22productos%22%0A%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D
